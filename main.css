@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    font-family: 'Ubuntu';
+    color: #075171;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+.flex-container{
+    display: flex;
+    
+    margin: auto;
+    width: 100%;
+ 
+}
+
+
+header{
+    background-color: #075171;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    color: #ffff;
+    padding: 25px;
+
+}
+header h1{
+    font-family: 'Ubuntu';
+    
+}
+
+header .list-itens{
+    display: flex;
+    max-width: 260px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-itens li a{
+    color: #fff;
+}
+
+header .menu{
+    justify-content: space-between;
+}
+
+.pagina-principal{
+   width: 100%;
+   height: 100%;
+}
+
+
+
+ 
+ #Sobre img{
+     width: 100%;
+     height: 100%;
+     
+ }
+ 
+ .banner{
+     position: absolute;
+     text-align: center;
+     color: #fff;
+     }
+
+.banner h2 {
+    font-family: 'Ubuntu';
+    margin-bottom: 15%;
+    font-size: 3rem;
+    margin-top: 5%;
+
+
+}
+.banner p{
+    font-family:'ubuntu';
+    font-size: 1.7rem;
+    text-align: center;
+    
+   
+}
+
+.container-externo{
+    background-color: #075171;
+    width: 100%;
+}
+
+#servicos{
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#servicos h2{
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.lista-servicos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista-servicos .item-servico{
+    text-align: center;
+}
+
+.item-servico a{
+    width: 220px;
+    background-color: #fff;
+    border-radius: 30px;
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 50px;
+    padding: 5px 10px;
+    color: #075171;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.item-servico p{
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.item-servico img{
+    width: 80%;
+    margin: auto;
+}
+
+footer{
+    background-color: #fff;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+footer .footer{
+    justify-content: space-between;
+    color: #000;
+   
+}
+footer .footer p{
+    padding: 15px;
+   
+}
+
+
+
